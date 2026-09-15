@@ -15,7 +15,7 @@ void loop()
   if(digitalRead(BUTTON) == LOW)
   {
     digitalWrite(BUZZER, HIGH);
-    delay(200);                   // 500ms beep
+    delay(500);                   // 500ms beep
     digitalWrite(BUZZER, LOW);
   }
 }
