@@ -6,12 +6,21 @@ Mostly kept so future-me doesn't have to re-learn the same component twice.
 
 ## What's inside
 
-- **sensors** — environment and input sensors
-- **displays** — screens and panels
-- **actuators** — things that beep, move or switch
+**Sensors** — environment and input sensors
+- BH1750 — light intensity
+- BME280 — temperature, humidity, pressure
+- DHT11 — temperature, humidity
+- Touch sensor — capacitive touch input
 
-Each category has one folder per component and each component folder holds
-working examples with the wiring and pin details in the code comments.
+**Displays** — screens and panels
+- LCD 16x2 — character display
+- OLED — small graphical display
+
+**Actuators** — things that beep, move, or switch
+- Buzzer — button-triggered tone
+
+Each component folder holds a working example with the wiring and pin details
+in the code comments.
 
 ## How to use it
 
